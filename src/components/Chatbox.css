@@ -1,0 +1,26 @@
+h5 {
+  margin: 0;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.chat-box {
+  padding: 0 15px;
+}
+
+.message {
+  padding-bottom: 15px;
+  /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
+  -ms-word-break: break-all;
+      word-break: break-all;
+
+      /* Non standard for webkit */
+      word-break: break-word;
+
+  -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}

@@ -1,0 +1,8 @@
+# The following types define the data model of the service
+
+type Chat @model {
+  id: ID! @isUnique
+  from: String!
+  content: String!
+  createdAt: DateTime!
+}
